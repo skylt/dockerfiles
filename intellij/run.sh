@@ -18,7 +18,6 @@ CMD="docker run --detach\
                 --name IntelliJ-skylt \
                 --net "host" \
                 --tty \
-                --rm \
                 --user=${USER_ID}:${GROUP_ID} \
                 --volume $HOME:/home/yaourt \
                 --volume /tmp/.X11-unix:/tmp/.X11-unix \
