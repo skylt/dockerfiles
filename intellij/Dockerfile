@@ -1,6 +1,6 @@
 FROM alekzonder/archlinux-yaourt:latest
 
-MAINTAINER Brendan Harley <brendan@lse.epita.fr>
+LABEL maintainer="brendan@lse.epita.fr"
 
 USER root
 
